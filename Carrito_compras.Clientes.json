@@ -1,0 +1,374 @@
+[{
+  "_id": {
+    "clave": "usuario_1"
+  },
+  "idCliente": 1,
+  "edad": 39,
+  "nombre": "Carlos",
+  "telefono": "3134567890",
+  "dirección": "Calle 63 sur",
+  "correo": "carlos@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_2"
+  },
+  "idCliente": 2,
+  "edad": 46,
+  "nombre": "Ana",
+  "telefono": "3184134991",
+  "dirección": "Avenida 68 ",
+  "correo": "ana@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_3"
+  },
+  "idCliente": 3,
+  "edad": 27,
+  "nombre": "Carmen",
+  "telefono": "3166213121",
+  "dirección": "Calle 36 Norte",
+  "correo": "carmen@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_4"
+  },
+  "idCliente": 4,
+  "edad": 42,
+  "nombre": "Ares",
+  "telefono": "3198765411",
+  "dirección": "Calle 27 sur",
+  "correo": "ares@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_5"
+  },
+  "idCliente": 5,
+  "edad": 44,
+  "nombre": "Joshua",
+  "telefono": "3178760909",
+  "dirección": "Avenida 45",
+  "correo": "joshua@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_6"
+  },
+  "idCliente": 6,
+  "edad": 29,
+  "nombre": "Juliana",
+  "telefono": "3094011152",
+  "dirección": "Calle 57 sur",
+  "correo": "juliana@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_7"
+  },
+  "idCliente": 7,
+  "edad": 20,
+  "nombre": "Laura",
+  "telefono": "3148884011",
+  "dirección": "Calle 156 Norte",
+  "correo": "laura@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_8"
+  },
+  "idCliente": 8,
+  "edad": 25,
+  "nombre": "Tomás",
+  "telefono": "3174421015",
+  "dirección": "Av 45 occidente",
+  "correo": "tomas@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_9"
+  },
+  "idCliente": 9,
+  "edad": 42,
+  "nombre": "Edisson",
+  "telefono": "3012123987",
+  "dirección": "Av cali 12-97",
+  "correo": "edisson@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_10"
+  },
+  "idCliente": 10,
+  "edad": 42,
+  "nombre": "Lorena",
+  "telefono": "3155762413",
+  "dirección": "Calle 85 Norte",
+  "correo": "lorena@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_11"
+  },
+  "idCliente": 11,
+  "edad": 18,
+  "nombre": "Juan",
+  "telefono": "3183456791",
+  "dirección": "Av 15 Oriente",
+  "correo": "juan@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_12"
+  },
+  "idCliente": 12,
+  "edad": 20,
+  "nombre": "Andrés",
+  "telefono": "3210921721",
+  "dirección": "Calle 76 diagonal 25",
+  "correo": "andres@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_13"
+  },
+  "idCliente": 13,
+  "edad": 52,
+  "nombre": "Catalina",
+  "telefono": "3102020542",
+  "dirección": "Av 90 -48 sur",
+  "correo": "Catalina@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_14"
+  },
+  "idCliente": 14,
+  "edad": 23,
+  "nombre": "José",
+  "telefono": "3229123450",
+  "dirección": "Calle 61 sur",
+  "correo": "jose@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_15"
+  },
+  "idCliente": 15,
+  "edad": 29,
+  "nombre": "Isabel",
+  "telefono": "3143021674",
+  "dirección": "Calle 180 Norte",
+  "correo": "isabel@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_16"
+  },
+  "idCliente": 16,
+  "edad": 29,
+  "nombre": "Hernán",
+  "telefono": "3189071751",
+  "dirección": "Av 35 occidente",
+  "correo": "hernan@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_17"
+  },
+  "idCliente": 17,
+  "edad": 48,
+  "nombre": "Natalia",
+  "telefono": "3215555098",
+  "dirección": "Cra 28 sur",
+  "correo": "natalia@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_18"
+  },
+  "idCliente": 18,
+  "edad": 68,
+  "nombre": "Maicol",
+  "telefono": "3256872451",
+  "dirección": "Calle 8 -40 sur",
+  "correo": "maicol@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_19"
+  },
+  "idCliente": 19,
+  "edad": 22,
+  "nombre": "Tania",
+  "telefono": "3134152144",
+  "dirección": "Cra 67 norte",
+  "correo": "tania@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_20"
+  },
+  "idCliente": 20,
+  "edad": 35,
+  "nombre": "Valentina",
+  "telefono": "3192156780",
+  "dirección": "Av 80 oriente",
+  "correo": "valentina@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_21"
+  },
+  "idCliente": 21,
+  "edad": 33,
+  "nombre": "Raul",
+  "telefono": "3136780546",
+  "dirección": "Cra 15 occidente",
+  "correo": "raul@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_22"
+  },
+  "idCliente": 22,
+  "edad": 19,
+  "nombre": "Maria",
+  "telefono": "3177120943",
+  "dirección": "Cra 30 sur",
+  "correo": "maria@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_23"
+  },
+  "idCliente": 23,
+  "edad": 41,
+  "nombre": "Luis",
+  "telefono": "3198712310",
+  "dirección": "Av 8 sur",
+  "correo": "luis@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_24"
+  },
+  "idCliente": 24,
+  "edad": 59,
+  "nombre": "Daniela",
+  "telefono": "3254159009",
+  "dirección": "Carrera 77 sur",
+  "correo": "daniela@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_25"
+  },
+  "idCliente": 25,
+  "edad": 27,
+  "nombre": "Alan",
+  "telefono": "3114013448",
+  "dirección": "Av 68 - 15 sur",
+  "correo": "alan@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_26"
+  },
+  "idCliente": 26,
+  "edad": 29,
+  "nombre": "Angie",
+  "telefono": "3271278786",
+  "dirección": "Cra 88 occiedente",
+  "correo": "angie@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_27"
+  },
+  "idCliente": 27,
+  "edad": 33,
+  "nombre": "David",
+  "telefono": "3197570020",
+  "dirección": "Calle 202 Norte",
+  "correo": "david@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_28"
+  },
+  "idCliente": 28,
+  "edad": 60,
+  "nombre": "Paula",
+  "telefono": "3201513991",
+  "dirección": "Cra 70 oriente",
+  "correo": "paula@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_29"
+  },
+  "idCliente": 29,
+  "edad": 26,
+  "nombre": "Francisco",
+  "telefono": "3145678098",
+  "dirección": "Transversal 67",
+  "correo": "francisco@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_30"
+  },
+  "idCliente": 30,
+  "edad": 22,
+  "nombre": "Karina",
+  "telefono": "3234598211",
+  "dirección": "Cra 172 norte",
+  "correo": "karina@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_31"
+  },
+  "idCliente": 31,
+  "edad": 44,
+  "nombre": "Brayan",
+  "telefono": "3111514902",
+  "dirección": "Av 08 sur",
+  "correo": "brayan@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_32"
+  },
+  "idCliente": 32,
+  "edad": 52,
+  "nombre": "Sharon",
+  "telefono": "3240162120",
+  "dirección": "Transversal 14",
+  "correo": "sharon@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_33"
+  },
+  "idCliente": 33,
+  "edad": 36,
+  "nombre": "Katherine",
+  "telefono": "3178907651",
+  "dirección": "Cra 112 Norte",
+  "correo": "katherine@gmail.com"
+},
+{
+  "_id": {
+    "clave": "usuario_35"
+  },
+  "idCliente": 34,
+  "edad": 47,
+  "nombre": "Camilo",
+  "telefono": "3189087641",
+  "dirección": "Calle 02 Sur",
+  "correo": "camilo@gmail.com"
+}]

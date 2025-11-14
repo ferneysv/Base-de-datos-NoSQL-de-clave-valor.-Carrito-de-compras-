@@ -1,0 +1,374 @@
+[{
+  "_id": {
+    "clave": "usuario_1"
+  },
+  "idProducto": 1,
+  "cantidad": 5,
+  "nombre": "Televisor",
+  "marca": "Samsung",
+  "preciounitario": "813.21",
+  "subtotal": "2439"
+},
+{
+  "_id": {
+    "clave": "usuario_2"
+  },
+  "idProducto": 2,
+  "cantidad": 2,
+  "nombre": "Lavadora",
+  "marca": "LG",
+  "preciounitario": "715.30",
+  "subtotal": "1430"
+},
+{
+  "_id": {
+    "clave": "usuario_3"
+  },
+  "idProducto": 3,
+  "cantidad": 1,
+  "nombre": "Celular",
+  "marca": "Huawei honor 7",
+  "preciounitario": "650.50",
+  "subtotal": "650"
+},
+{
+  "_id": {
+    "clave": "usuario_4"
+  },
+  "idProducto": 4,
+  "cantidad": 2,
+  "nombre": "Celular",
+  "marca": "Samsung Galaxy A17",
+  "preciounitario": "990.65",
+  "subtotal": "1981"
+},
+{
+  "_id": {
+    "clave": "usuario_5"
+  },
+  "idProducto": 5,
+  "cantidad": 2,
+  "nombre": "Audifonos",
+  "marca": "Samsung Galaxy Buds 3",
+  "preciounitario": "455.15",
+  "subtotal": "910.3"
+},
+{
+  "_id": {
+    "clave": "usuario_6"
+  },
+  "idProducto": 6,
+  "cantidad": 3,
+  "nombre": "Audifonos",
+  "marca": "Xiaomi Redmi Buds 3",
+  "preciounitario": "95.30",
+  "subtotal": "285"
+},
+{
+  "_id": {
+    "clave": "usuario_7"
+  },
+  "idProducto": 7,
+  "cantidad": 1,
+  "nombre": "Colchon inflable",
+  "marca": "Ohgeni Queen",
+  "preciounitario": "540.05",
+  "subtotal": "540"
+},
+{
+  "_id": {
+    "clave": "usuario_8"
+  },
+  "idProducto": 8,
+  "cantidad": 2,
+  "nombre": "Colchon inflable",
+  "marca": " Queen Klimber",
+  "preciounitario": "195.45",
+  "subtotal": "390"
+},
+{
+  "_id": {
+    "clave": "usuario_9"
+  },
+  "idProducto": 9,
+  "cantidad": 4,
+  "nombre": "Cepillo dental",
+  "marca": " Colgate",
+  "preciounitario": "4.50",
+  "subtotal": "17"
+},
+{
+  "_id": {
+    "clave": "usuario_10"
+  },
+  "idProducto": 10,
+  "cantidad": 5,
+  "nombre": "Cepillo dental",
+  "marca": " Oral B",
+  "preciounitario": "5.57",
+  "subtotal": "27"
+},
+{
+  "_id": {
+    "clave": "usuario_11"
+  },
+  "idProducto": 11,
+  "cantidad": 2,
+  "nombre": "Crema dental",
+  "marca": " Colgate",
+  "preciounitario": "5.80",
+  "subtotal": "11"
+},
+{
+  "_id": {
+    "clave": "usuario_12"
+  },
+  "idProducto": 12,
+  "cantidad": 6,
+  "nombre": "Cepillo dental",
+  "marca": " Oral B",
+  "preciounitario": "4.10",
+  "subtotal": "24"
+},
+{
+  "_id": {
+    "clave": "usuario_13"
+  },
+  "idProducto": 13,
+  "cantidad": 2,
+  "nombre": "Jabón liquido",
+  "marca": " Palmolive",
+  "preciounitario": "14.37",
+  "subtotal": "28"
+},
+{
+  "_id": {
+    "clave": "usuario_14"
+  },
+  "idProducto": 14,
+  "cantidad": 3,
+  "nombre": "Jabón en barra",
+  "marca": " Dove",
+  "preciounitario": "8.76",
+  "subtotal": "26"
+},
+{
+  "_id": {
+    "clave": "usuario_15"
+  },
+  "idProducto": 15,
+  "cantidad": 5,
+  "nombre": "Jabón en barra",
+  "marca": " Rey",
+  "preciounitario": "1.60",
+  "subtotal": "8"
+},
+{
+  "_id": {
+    "clave": "usuario_16"
+  },
+  "idProducto": 16,
+  "cantidad": 2,
+  "nombre": "Libra de arroz",
+  "marca": " Roa",
+  "preciounitario": "4.50",
+  "subtotal": "9"
+},
+{
+  "_id": {
+    "clave": "usuario_17"
+  },
+  "idProducto": 17,
+  "cantidad": 1,
+  "nombre": "Libra de arroz",
+  "marca": " Diana",
+  "preciounitario": "5.60",
+  "subtotal": "5"
+},
+{
+  "_id": {
+    "clave": "usuario_18"
+  },
+  "idProducto": 18,
+  "cantidad": 2,
+  "nombre": "Medias Running para hombre",
+  "marca": " Adidas",
+  "preciounitario": "49.50",
+  "subtotal": "99"
+},
+{
+  "_id": {
+    "clave": "usuario_19"
+  },
+  "idProducto": 19,
+  "cantidad": 2,
+  "nombre": "Medias Running para mujer",
+  "marca": " Adidas",
+  "preciounitario": "47.50",
+  "subtotal": "95"
+},
+{
+  "_id": {
+    "clave": "usuario_20"
+  },
+  "idProducto": 20,
+  "cantidad": 1,
+  "nombre": "Chaqueta Total 90 para hombre",
+  "marca": " Nike",
+  "preciounitario": "569.50",
+  "subtotal": "569"
+},
+{
+  "_id": {
+    "clave": "usuario_21"
+  },
+  "idProducto": 21,
+  "cantidad": 1,
+  "nombre": "Chaqueta Tempo para mujer",
+  "marca": " Nike",
+  "preciounitario": "395.25",
+  "subtotal": "395"
+},
+{
+  "_id": {
+    "clave": "usuario_22"
+  },
+  "idProducto": 22,
+  "cantidad": 2,
+  "nombre": "Aspiradora Mi robot vacuum E5",
+  "marca": " Xiaomi",
+  "preciounitario": "398.25",
+  "subtotal": "796"
+},
+{
+  "_id": {
+    "clave": "usuario_23"
+  },
+  "idProducto": 23,
+  "cantidad": 1,
+  "nombre": "Aspiradora de sólidos y líquidos",
+  "marca": " Truper 12091",
+  "preciounitario": "231.38",
+  "subtotal": "231"
+},
+{
+  "_id": {
+    "clave": "usuario_24"
+  },
+  "idProducto": 24,
+  "cantidad": 2,
+  "nombre": "Tenis para Hombre",
+  "marca": " Puma 9-T",
+  "preciounitario": "302.10",
+  "subtotal": "604"
+},
+{
+  "_id": {
+    "clave": "usuario_25"
+  },
+  "idProducto": 25,
+  "cantidad": 1,
+  "nombre": "Tenis para Mujer",
+  "marca": " Puma Training pulse pro",
+  "preciounitario": "390.27",
+  "subtotal": "390"
+},
+{
+  "_id": {
+    "clave": "usuario_26"
+  },
+  "idProducto": 26,
+  "cantidad": 1,
+  "nombre": "Atornillador con batería de litio",
+  "marca": " Ikea",
+  "preciounitario": "70.25",
+  "subtotal": "70"
+},
+{
+  "_id": {
+    "clave": "usuario_27"
+  },
+  "idProducto": 27,
+  "cantidad": 2,
+  "nombre": "Taladro inalámbrico",
+  "marca": " Pretul 3/8",
+  "preciounitario": "135.75",
+  "subtotal": "271"
+},
+{
+  "_id": {
+    "clave": "usuario_28"
+  },
+  "idProducto": 28,
+  "cantidad": 1,
+  "nombre": "Morral de viaje grande",
+  "marca": " Totto",
+  "preciounitario": "175.25",
+  "subtotal": "175"
+},
+{
+  "_id": {
+    "clave": "usuario_29"
+  },
+  "idProducto": 29,
+  "cantidad": 2,
+  "nombre": "Balon de Fútbol Termotech",
+  "marca": " Golty profesional ",
+  "preciounitario": "82.39",
+  "subtotal": "164"
+},
+{
+  "_id": {
+    "clave": "usuario_30"
+  },
+  "idProducto": 30,
+  "cantidad": 1,
+  "nombre": "Balon de Fútbol",
+  "marca": " Nike Phantom ",
+  "preciounitario": "76.0",
+  "subtotal": "76"
+},
+{
+  "_id": {
+    "clave": "usuario_31"
+  },
+  "idProducto": 31,
+  "cantidad": 2,
+  "nombre": "Frijol negro",
+  "marca": " Zenú ",
+  "preciounitario": "12.25",
+  "subtotal": "24"
+},
+{
+  "_id": {
+    "clave": "usuario_32"
+  },
+  "idProducto": 32,
+  "cantidad": 3,
+  "nombre": "Frijoles Enteros negros",
+  "marca": " La sierra",
+  "preciounitario": "9.5",
+  "subtotal": "28"
+},
+{
+  "_id": {
+    "clave": "usuario_33"
+  },
+  "idProducto": 33,
+  "cantidad": 4,
+  "nombre": "Pasta de 1000 g",
+  "marca": " Doria",
+  "preciounitario": "6.5",
+  "subtotal": "26"
+},
+{
+  "_id": {
+    "clave": "usuario_34"
+  },
+  "idProducto": 34,
+  "cantidad": 5,
+  "nombre": "Pasta de 1000 g",
+  "marca": " La muñeca",
+  "preciounitario": "4.0",
+  "subtotal": "20"
+}]

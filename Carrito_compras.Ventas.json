@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "clave": "usuario_1"
+  },
+  "idVenta": 1,
+  "idCliente": 1,
+  "fecha": "2025-07-01T11:25:00Z",
+  "productos": [
+    {
+      "idProducto": 1,
+      "cantidad": 3,
+      "precioUnitario": 813.21,
+      "subtotal": 2439
+    },
+    {
+      "idProducto": 3,
+      "cantidad": 1,
+      "precioUnitario": 650.5,
+      "subtotal": 650
+    }
+  ],
+  "totalVenta": 3089.5,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_2"
+  },
+  "idVenta": 2,
+  "idCliente": 2,
+  "fecha": "2025-07-02T11:20:00Z",
+  "productos": [
+    {
+      "idProducto": 2,
+      "cantidad": 1,
+      "precioUnitario": 715.3,
+      "subtotal": 715
+    }
+  ],
+  "totalVenta": 715,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_3"
+  },
+  "idVenta": 3,
+  "idCliente": 3,
+  "fecha": "2025-07-03T11:30:00Z",
+  "productos": [
+    {
+      "idProducto": 4,
+      "cantidad": 2,
+      "precioUnitario": 990.65,
+      "subtotal": 1981
+    }
+  ],
+  "totalVenta": 1981,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_4"
+  },
+  "idVenta": 4,
+  "idCliente": 4,
+  "fecha": "2025-07-03T11:32:00Z",
+  "productos": [
+    {
+      "idProducto": 5,
+      "cantidad": 1,
+      "precioUnitario": 455.15,
+      "subtotal": 455
+    }
+  ],
+  "totalVenta": 455,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_5"
+  },
+  "idVenta": 5,
+  "idCliente": 5,
+  "fecha": "2025-07-04T10:05:00Z",
+  "productos": [
+    {
+      "idProducto": 6,
+      "cantidad": 2,
+      "precioUnitario": 95.3,
+      "subtotal": 190
+    }
+  ],
+  "totalVenta": 190,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_6"
+  },
+  "idVenta": 6,
+  "idCliente": 6,
+  "fecha": "2025-07-04T09:41:00Z",
+  "productos": [
+    {
+      "idProducto": 7,
+      "cantidad": 1,
+      "precioUnitario": 540.05,
+      "subtotal": 540
+    }
+  ],
+  "totalVenta": 540,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_7"
+  },
+  "idVenta": 7,
+  "idCliente": 7,
+  "fecha": "2025-07-04T09:45:00Z",
+  "productos": [
+    {
+      "idProducto": 8,
+      "cantidad": 1,
+      "precioUnitario": 195.45,
+      "subtotal": 195
+    }
+  ],
+  "totalVenta": 195,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_8"
+  },
+  "idVenta": 8,
+  "idCliente": 8,
+  "fecha": "2025-07-04T09:51:00Z",
+  "productos": [
+    {
+      "idProducto": 9,
+      "cantidad": 2,
+      "precioUnitario": 4.32,
+      "subtotal": 8
+    }
+  ],
+  "totalVenta": 8,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_9"
+  },
+  "idVenta": 9,
+  "idCliente": 9,
+  "fecha": "2025-07-04T09:56:00Z",
+  "productos": [
+    {
+      "idProducto": 9,
+      "cantidad": 1,
+      "precioUnitario": 4.32,
+      "subtotal": 4
+    }
+  ],
+  "totalVenta": 4,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_10"
+  },
+  "idVenta": 10,
+  "idCliente": 10,
+  "fecha": "2025-07-04T10:10:00Z",
+  "productos": [
+    {
+      "idProducto": 10,
+      "cantidad": 2,
+      "precioUnitario": 5.57,
+      "subtotal": 11
+    }
+  ],
+  "totalVenta": 11,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_11"
+  },
+  "idVenta": 11,
+  "idCliente": 11,
+  "fecha": "2025-07-05T10:13:00Z",
+  "productos": [
+    {
+      "idProducto": 12,
+      "cantidad": 3,
+      "precioUnitario": 4.1,
+      "subtotal": 12
+    }
+  ],
+  "totalVenta": 12,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_12"
+  },
+  "idVenta": 12,
+  "idCliente": 12,
+  "fecha": "2025-07-05T12:28:00Z",
+  "productos": [
+    {
+      "idProducto": 11,
+      "cantidad": 1,
+      "precioUnitario": 5.8,
+      "subtotal": 5
+    }
+  ],
+  "totalVenta": 5,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_13"
+  },
+  "idVenta": 13,
+  "idCliente": 13,
+  "fecha": "2025-07-05T12:48:00Z",
+  "productos": [
+    {
+      "idProducto": 6,
+      "cantidad": 1,
+      "precioUnitario": 95.3,
+      "subtotal": 95
+    }
+  ],
+  "totalVenta": 5,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_14"
+  },
+  "idVenta": 14,
+  "idCliente": 14,
+  "fecha": "2025-07-05T12:51:00Z",
+  "productos": [
+    {
+      "idProducto": 13,
+      "cantidad": 1,
+      "precioUnitario": 14.37,
+      "subtotal": 14
+    }
+  ],
+  "totalVenta": 14,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_15"
+  },
+  "idVenta": 15,
+  "idCliente": 15,
+  "fecha": "2025-07-06T09:52:00Z",
+  "productos": [
+    {
+      "idProducto": 14,
+      "cantidad": 2,
+      "precioUnitario": 8.76,
+      "subtotal": 17
+    }
+  ],
+  "totalVenta": 17,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_16"
+  },
+  "idVenta": 16,
+  "idCliente": 16,
+  "fecha": "2025-07-06T09:55:00Z",
+  "productos": [
+    {
+      "idProducto": 15,
+      "cantidad": 3,
+      "precioUnitario": 1.6,
+      "subtotal": 4
+    }
+  ],
+  "totalVenta": 4,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_17"
+  },
+  "idVenta": 17,
+  "idCliente": 17,
+  "fecha": "2025-07-06T10:05:00Z",
+  "productos": [
+    {
+      "idProducto": 16,
+      "cantidad": 1,
+      "precioUnitario": 4.5,
+      "subtotal": 4
+    }
+  ],
+  "totalVenta": 4,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_18"
+  },
+  "idVenta": 18,
+  "idCliente": 18,
+  "fecha": "2025-07-06T10:11:00Z",
+  "productos": [
+    {
+      "idProducto": 17,
+      "cantidad": 1,
+      "precioUnitario": 5.6,
+      "subtotal": 5
+    }
+  ],
+  "totalVenta": 5,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_19"
+  },
+  "idVenta": 19,
+  "idCliente": 19,
+  "fecha": "2025-07-06T10:22:00Z",
+  "productos": [
+    {
+      "idProducto": 18,
+      "cantidad": 2,
+      "precioUnitario": 49.5,
+      "subtotal": 49
+    }
+  ],
+  "totalVenta": 49,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_20"
+  },
+  "idVenta": 20,
+  "idCliente": 20,
+  "fecha": "2025-07-07T08:40:00Z",
+  "productos": [
+    {
+      "idProducto": 19,
+      "cantidad": 2,
+      "precioUnitario": 47.5,
+      "subtotal": 47
+    }
+  ],
+  "totalVenta": 47,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_21"
+  },
+  "idVenta": 21,
+  "idCliente": 21,
+  "fecha": "2025-07-07T08:47:00Z",
+  "productos": [
+    {
+      "idProducto": 20,
+      "cantidad": 1,
+      "precioUnitario": 569.5,
+      "subtotal": 569
+    }
+  ],
+  "totalVenta": 569,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_22"
+  },
+  "idVenta": 22,
+  "idCliente": 22,
+  "fecha": "2025-07-07T08:53:00Z",
+  "productos": [
+    {
+      "idProducto": 21,
+      "cantidad": 2,
+      "precioUnitario": 395.25,
+      "subtotal": 790
+    }
+  ],
+  "totalVenta": 790,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_23"
+  },
+  "idVenta": 23,
+  "idCliente": 23,
+  "fecha": "2025-07-07T09:11:00Z",
+  "productos": [
+    {
+      "idProducto": 22,
+      "cantidad": 1,
+      "precioUnitario": 398.25,
+      "subtotal": 398
+    }
+  ],
+  "totalVenta": 790,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_24"
+  },
+  "idVenta": 24,
+  "idCliente": 24,
+  "fecha": "2025-07-07T09:19:00Z",
+  "productos": [
+    {
+      "idProducto": 23,
+      "cantidad": 1,
+      "precioUnitario": 231.38,
+      "subtotal": 231
+    }
+  ],
+  "totalVenta": 231,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_25"
+  },
+  "idVenta": 25,
+  "idCliente": 25,
+  "fecha": "2025-07-07T09:25:00Z",
+  "productos": [
+    {
+      "idProducto": 24,
+      "cantidad": 1,
+      "precioUnitario": 302.1,
+      "subtotal": 302
+    }
+  ],
+  "totalVenta": 302,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_26"
+  },
+  "idVenta": 26,
+  "idCliente": 26,
+  "fecha": "2025-07-07T09:30:00Z",
+  "productos": [
+    {
+      "idProducto": 25,
+      "cantidad": 2,
+      "precioUnitario": 390.27,
+      "subtotal": 780
+    }
+  ],
+  "totalVenta": 780,
+  "metodoPago": "Transferencia bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_27"
+  },
+  "idVenta": 27,
+  "idCliente": 27,
+  "fecha": "2025-07-07T09:37:00Z",
+  "productos": [
+    {
+      "idProducto": 26,
+      "cantidad": 1,
+      "precioUnitario": 70.25,
+      "subtotal": 70
+    }
+  ],
+  "totalVenta": 70,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_28"
+  },
+  "idVenta": 28,
+  "idCliente": 28,
+  "fecha": "2025-07-07T09:43:00Z",
+  "productos": [
+    {
+      "idProducto": 27,
+      "cantidad": 1,
+      "precioUnitario": 135.75,
+      "subtotal": 135
+    }
+  ],
+  "totalVenta": 135,
+  "metodoPago": "Tarjeta de crédito"
+},
+{
+  "_id": {
+    "clave": "usuario_29"
+  },
+  "idVenta": 29,
+  "idCliente": 29,
+  "fecha": "2025-07-07T09:57:00Z",
+  "productos": [
+    {
+      "idProducto": 28,
+      "cantidad": 1,
+      "precioUnitario": 175.25,
+      "subtotal": 175
+    }
+  ],
+  "totalVenta": 175,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_30"
+  },
+  "idVenta": 30,
+  "idCliente": 30,
+  "fecha": "2025-07-08T08:15:00Z",
+  "productos": [
+    {
+      "idProducto": 29,
+      "cantidad": 3,
+      "precioUnitario": 82.39,
+      "subtotal": 247
+    }
+  ],
+  "totalVenta": 247,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_31"
+  },
+  "idVenta": 31,
+  "idCliente": 31,
+  "fecha": "2025-07-08T08:27:00Z",
+  "productos": [
+    {
+      "idProducto": 30,
+      "cantidad": 1,
+      "precioUnitario": 76,
+      "subtotal": 76
+    }
+  ],
+  "totalVenta": 76,
+  "metodoPago": "Tarjeta débito"
+},
+{
+  "_id": {
+    "clave": "usuario_32"
+  },
+  "idVenta": 32,
+  "idCliente": 32,
+  "fecha": "2025-07-08T08:33:00Z",
+  "productos": [
+    {
+      "idProducto": 31,
+      "cantidad": 2,
+      "precioUnitario": 12.25,
+      "subtotal": 24
+    }
+  ],
+  "totalVenta": 24,
+  "metodoPago": "Transferencia Bancaria"
+},
+{
+  "_id": {
+    "clave": "usuario_33"
+  },
+  "idVenta": 33,
+  "idCliente": 33,
+  "fecha": "2025-07-08T08:47:00Z",
+  "productos": [
+    {
+      "idProducto": 32,
+      "cantidad": 2,
+      "precioUnitario": 9.5,
+      "subtotal": 19
+    }
+  ],
+  "totalVenta": 19,
+  "metodoPago": "Tarjeta de crédito"
+}]
