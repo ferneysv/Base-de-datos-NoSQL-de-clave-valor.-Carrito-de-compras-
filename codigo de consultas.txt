@@ -1,0 +1,159 @@
+Consulta de inserción de clientes nuevos:
+db.Clientes.insertMany([
+  {
+    "_id": { "clave": "usuario_35" },
+    "idCliente": 35,
+    "edad": 47,
+    "nombre": "Camilo",
+    "telefono": "3189087641",
+    "dirección": "Calle 02 Sur",
+    "correo": "camilo@gmail.com"
+  },
+  {
+    "_id": { "clave": "usuario_36" },
+    "idCliente": 36,
+    "edad": 20,
+    "nombre": "Samanta",
+    "telefono": "3000578909",
+    "dirección": "Traversal 15 -18 ",
+    "correo": "samanta@gmail.com"
+  }
+]);
+
+Verificación de consulta:
+db.Clientes.find({ "_id.clave": { $in: ["usuario_35", "usuario_36"] } }).pretty()
+-------------------
+Consultas de selección:
+1-	Buscar el carrito de compras del Usuario 1:
+db.Productos.find({ "_id.clave": "usuario_1" }).pretty()
+
+ 2-	Buscar en la selección: Cantidad, nombre y marca de los productos:
+db.Productos.find(
+  { "_id.clave": "usuario_5" },
+  { nombre: 1, marca: 1, cantidad: 1, _id: 0 }
+).pretty()
+
+3-
+Clientes que tengan la edad de 40 a 49 años:
+db.Clientes.find({ edad: { $gt: 40 } }).pretty()
+-----------------------------
+Consultas de actualización:
+1- Actualizar la cantidad de idProducto:1
+db.Productos.updateOne(
+  { "_id.clave": "usuario_1", idProducto: 1 },
+  { $set: { cantidad: 5 } }
+)
+
+Verificación de actualización:
+db.Productos.find({ "_id.clave": { $in: ["usuario_1"] } }).pretty()
+
+2- Actualizar el precio unitario de los cepillos Colgate:
+db.Productos.updateMany(
+  { nombre: "Cepillo dental", marca: " Colgate" },
+  { $set: { preciounitario: "4.50" } }
+)
+Verificación de actualización:
+db.Productos.find({ "_id.clave": { $in: ["usuario_9"] } }).pretty()
+
+3- Actualizar el correo de un cliente:
+Actualizar el correo de un cliente:
+db.Clientes.updateOne(
+  { "_id.clave": "usuario_13" },
+  { $set: { correo: "Catalina@gmail.com" } }
+)
+Verificación de actualización:
+db.Clientes.find({ "_id.clave": { $in: ["usuario_13"] } }).pretty()
+------------------------------------
+Consultas de Eliminación:
+db.Clientes.deleteOne({ "_id.clave": "usuario_36" })
+Verificación de eliminación:
+db.Clientes.find({ "_id.clave": { $in: ["usuario_36"] } }).pretty()
+
+2 - Eliminar una venta en concreto:
+db.Ventas.deleteOne({ idVenta: 34 })
+
+Verificación de eliminación:
+db.Ventas.find({ "_idVenta": { $in: ["34"] } }).pretty()
+----------------------------------
+Consultas de Filtros y operadores
+
+1-  Productos con valor entre 100 y $500:
+db.Productos.find({
+  preciounitario: { $gte: "100", $lte: "500" }
+}).pretty()
+
+2-	Clientes mayores de 30 y menores de 50:
+db.Clientes.find({
+ edad: { $gte: 30, $lte: 50 }
+}).pretty()
+
+3-	Ventas que tienen más de un producto a la venta:
+db.Ventas.find({
+ $expr: { $gt: [{ $size: "$productos" }, 1] }
+}).pretty()
+
+4-	Método de pago que contiene crédito:
+
+db.Ventas.find({
+ metodoPago: { $regex: "crédito", $options: "i" }
+}).pretty()
+
+5-	Clientes que empiezan con b o d:
+
+db.clientes.find({
+ nombre: { $in: [/^B/, /^D/] }
+}).pretty()
+-----------------
+Consultas de agregación para calcular estadísticas (contar, sumar, promediar, etc.). 
+
+Agregación:
+1- Número total de ventas:
+db.Ventas.countDocuments({})
+
+2. Ingresos totales: suma de todos los totales_venta:
+
+db.Ventas.aggregate([
+{ $group: { _id: null, ingresosTotales: { $sum: "$totalVenta" } } }
+])
+
+3. Promedio por venta:
+
+db.Ventas.aggregate([
+{ $group: { _id: null, ticketPromedio: { $avg: "$totalVenta" } } }
+])
+
+4. Venta más alta y baja:
+
+db.Ventas.aggregate([
+  {
+    $group: {
+      _id: null,
+      ventaMaxima: { $max: "$totalVenta" },
+      ventaMinima: { $min: "$totalVenta" }
+    }
+  }
+])
+
+5. Valor promedio por producto en el carrito:
+
+db.Productos.aggregate([
+  {
+    $group: {
+      _id: "$nombre",
+      marca: { $first: "$marca" },
+      avgPrecioUnitario: { $avg: { $toDouble: "$preciounitario" } },
+      totalUnidades: { $sum: "$cantidad" }
+    }
+  },
+  { $sort: { avgPrecioUnitario: -1 } }
+])
+
+
+
+
+
+
+
+
+
+
