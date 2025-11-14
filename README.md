@@ -1,1 +1,1 @@
-# Base-de-datos-NoSQL-de-clave-valor.-Carrito-de-compras-
+# Base-de-datos-NoSQL-de-clave-valor
